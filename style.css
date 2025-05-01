@@ -1699,7 +1699,7 @@ from{
 }
 
 .bck-assets{
-	grid-area: 2 / 1 / span 7 / span 12;
+	grid-area: 2 / 1 / span 6 / span 12;
 	outline: double 4px #DFB268;
 	background-image: url("imagenes/background-nebula.webp");
 }
@@ -1759,15 +1759,14 @@ from{
 .sieteportres-left, .sieteportres-right{
 	display: grid;
 	grid-template-columns: subgrid;
-	grid-template-rows: subgrid;
-	grid-area: 2 / 1 / span 7 / span 4;
+	grid-area: 2 / 1 / span 6 / span 4;
 	z-index: 2;
 	background: rgba(255, 255, 255, 0.5);
 	backdrop-filter: blur(10px);
 }
 
 .sieteportres-right{
-	grid-area: 2 / 9 / span 7 / span 4;
+	grid-area: 2 / 9 / span 6 / span 4;
 }
 
 .titulo-bckg{
